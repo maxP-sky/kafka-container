@@ -32,4 +32,3 @@ services:
       - ./full-stack/kafka1/data:/var/lib/kafka/data
     depends_on:
       - zoo1
-
