@@ -25,7 +25,7 @@ var consumer = new Kafka.KafkaConsumer({
 consumer.connect();
 
 consumer.on('ready', () => {
-  consumer.subscribe([topic]);
+  consumer.subscribe([TOPIC]);
   consumer.consume();
   console
 });
